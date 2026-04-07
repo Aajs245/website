@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Charming Smiles - Advanced Dental & Cosmetic Care in Dombivli. Expert dental implants, teeth whitening, and cosmetic dentistry services.">
+    <title>Charming Smiles - Advanced Dental & Cosmetic Care in Dombivli</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <i class="fas fa-tooth"></i>
+                    <span>Charming Smiles</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title fade-in">Your Smile, Our Passion</h1>
+                    <p class="hero-subtitle fade-in">Advanced Dental & Cosmetic Care in Dombivli</p>
+                    <div class="hero-buttons fade-in">
+                        <button class="btn btn-primary ripple" onclick="openBookingForm()">
+                            <i class="far fa-calendar-check"></i> Book Appointment
+                        </button>
+                        <a href="tel:9152655111" class="btn btn-secondary ripple">
+                            <i class="fas fa-phone-alt"></i> Call Now
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="floating-tooth">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image fade-in-up">
+                    <div class="doctor-avatar">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                </div>
+                <div class="about-text fade-in-up">
+                    <h2 class="section-title">About Charming Smiles</h2>
+                    <p class="about-description">
+                        Charming Smiles is a women-owned dental clinic dedicated to providing expert care with a personal touch. Led by experienced professionals, we ensure comfort, confidence, and healthy smiles for every patient.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-award"></i>
+                            <span>Expert Professionals</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-heart"></i>
+                            <span>Personal Care</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-star"></i>
+                            <span>Trusted Service</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title text-center fade-in-up">Our Services</h2>
+            <p class="section-subtitle text-center fade-in-up">Comprehensive dental care for your beautiful smile</p>
+            <div class="services-grid">
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">
+                        <i class="fas fa-teeth"></i>
+                    </div>
+                    <h3>Dental Implants</h3>
+                    <p>Permanent solution for missing teeth with natural look and feel</p>
+                </div>
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                    <h3>Teeth Whitening</h3>
+                    <p>Professional whitening for a brighter, more confident smile</p>
+                </div>
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">
+                        <i class="fas fa-clinic-medical"></i>
+                    </div>
+                    <h3>Laser Gum Depigmentation</h3>
+                    <p>Advanced laser treatment for healthy, pink gums</p>
+                </div>
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">
+                        <i class="fas fa-smile-beam"></i>
+                    </div>
+                    <h3>Cosmetic Dentistry</h3>
+                    <p>Transform your smile with aesthetic dental procedures</p>
+                </div>
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Skin & Facial Treatments</h3>
+                    <p>Complementary aesthetic treatments for complete care</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <h2 class="section-title text-center fade-in-up">Why Choose Charming Smiles</h2>
+            <div class="why-grid">
+                <div class="why-card fade-in-up">
+                    <div class="why-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="why-content">
+                        <h3 class="counter" data-target="4.8">0</h3>
+                        <p>★ Rating</p>
+                        <span class="why-detail">238+ Reviews</span>
+                    </div>
+                </div>
+                <div class="why-card fade-in-up">
+                    <div class="why-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="why-content">
+                        <h3>Friendly Staff</h3>
+                        <p>Caring & Professional</p>
+                    </div>
+                </div>
+                <div class="why-card fade-in-up">
+                    <div class="why-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <div class="why-content">
+                        <h3>Advanced Tech</h3>
+                        <p>Latest Equipment</p>
+                    </div>
+                </div>
+                <div class="why-card fade-in-up">
+                    <div class="why-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <div class="why-content">
+                        <h3>Personalized</h3>
+                        <p>Tailored Treatment</p>
+                    </div>
+                </div>
+                <div class="why-card fade-in-up">
+                    <div class="why-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="why-content">
+                        <h3>Family Care</h3>
+                        <p>Like Home Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title text-center fade-in-up">What Our Patients Say</h2>
+            <div class="testimonials-carousel">
+                <div class="testimonial-track">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Exceptional care during tough time. The team at Charming Smiles made me feel comfortable and supported throughout my treatment. Highly recommended!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Priya Sharma</h4>
+                                <p>Patient</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Boosted my confidence! The teeth whitening treatment was amazing. I can't stop smiling now. Professional service with great results."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Rahul Desai</h4>
+                                <p>Patient</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Amazing experience with visible results. The cosmetic dentistry work exceeded my expectations. The staff is caring and professional. Five stars!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Sneha Patel</h4>
+                                <p>Patient</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="carousel-dots"></div>
+                    <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title text-center fade-in-up">Visit Us</h2>
+            <div class="contact-content">
+                <div class="contact-info fade-in-up">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Address</h3>
+                            <p>Shop no 1 & 2, Annapurna Pooja Building, Jai Hind Colony, Dombivli West, Kalyan, Maharashtra</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Phone</h3>
+                            <p><a href="tel:9152655111">9152655111</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Working Hours</h3>
+                            <p>Open till 10 PM</p>
+                        </div>
+                    </div>
+                    <div class="contact-buttons">
+                        <a href="https://maps.google.com/?q=Shop+no+1+%26+2,+Annapurna+Pooja+Building,+Jai+Hind+Colony,+Dombivli+West,+Kalyan,+Maharashtra" target="_blank" class="btn btn-primary ripple">
+                            <i class="fas fa-directions"></i> Get Directions
+                        </a>
+                        <a href="tel:9152655111" class="btn btn-secondary ripple">
+                            <i class="fas fa-phone-alt"></i> Call Now
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-map fade-in-up">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.123456789!2d73.0867!3d19.2183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDEzJzA1LjkiTiA3M8KwMDUnMTIuMSJF!5e0!3m2!1sen!2sin!4v1234567890"
+                        width="100%"
+                        height="100%"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-tooth"></i>
+                        <span>Charming Smiles</span>
+                    </div>
+                    <p>Your trusted partner for dental and cosmetic care</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-phone-alt"></i> 9152655111</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Dombivli West, Maharashtra</li>
+                        <li><i class="fas fa-clock"></i> Open till 10 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Charming Smiles Dental Clinic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Appointment Booking Modal -->
+    <div id="bookingModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Book an Appointment</h2>
+            <form id="bookingForm" class="booking-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Service</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a service</option>
+                        <option value="dental-implants">Dental Implants</option>
+                        <option value="teeth-whitening">Teeth Whitening</option>
+                        <option value="laser-gum">Laser Gum Depigmentation</option>
+                        <option value="cosmetic">Cosmetic Dentistry</option>
+                        <option value="skin-facial">Skin & Facial Treatments</option>
+                        <option value="general">General Consultation</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <button type="submit" class="btn btn-primary ripple">Submit Appointment</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/919152655111" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
